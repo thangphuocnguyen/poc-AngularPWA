@@ -8,11 +8,13 @@ import { MaterialModule } from './material/material.module';
 import { HomeComponent } from './home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { IosInstallComponent } from './ios-install/ios-install.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    IosInstallComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,7 @@ import { environment } from '../environments/environment';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [IosInstallComponent]
 })
 export class AppModule { }
