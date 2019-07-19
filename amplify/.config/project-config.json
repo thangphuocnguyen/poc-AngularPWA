@@ -1,0 +1,17 @@
+{
+    "projectName": "AngularPWA",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist/AngularPWA",
+            "BuildCommand": "npm run build",
+            "StartCommand": "npm run simpleserver"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

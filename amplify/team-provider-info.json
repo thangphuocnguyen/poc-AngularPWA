@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "angularpwa-dev-20190719141843-authRole",
+            "UnauthRoleArn": "arn:aws:iam::398864661649:role/angularpwa-dev-20190719141843-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::398864661649:role/angularpwa-dev-20190719141843-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "angularpwa-dev-20190719141843-deployment",
+            "UnauthRoleName": "angularpwa-dev-20190719141843-unauthRole",
+            "StackName": "angularpwa-dev-20190719141843",
+            "StackId": "arn:aws:cloudformation:us-east-1:398864661649:stack/angularpwa-dev-20190719141843/718a1ff0-a9f5-11e9-968e-0ae81055537e"
+        }
+    }
+}
